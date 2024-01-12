@@ -6,13 +6,14 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @ToString
-public class Board {
-    private int bno;
-    private String title;
-    private String content;
+public class ChatMessage {
+    private long no;
+    private MessageType type;
+    private String roomId;
+    private String sender;
+    private String message;
     private String resdate;
-    private int visited;
 }

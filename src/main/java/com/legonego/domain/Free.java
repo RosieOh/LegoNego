@@ -15,5 +15,5 @@ public class Free {
     private String title;
     private String content;
     private Integer visit;
-    private String regdate;
+    private String resdate;
 }

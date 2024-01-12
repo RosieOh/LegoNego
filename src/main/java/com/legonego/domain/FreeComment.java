@@ -6,13 +6,13 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @ToString
-public class Board {
-    private int bno;
-    private String title;
+public class FreeComment {
+    private Integer no;
+    private String id;
     private String content;
     private String resdate;
-    private int visited;
+    private Integer par;
 }
