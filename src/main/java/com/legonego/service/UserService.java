@@ -18,7 +18,6 @@ public interface UserService {
     public int userJoin(User user);
     public int updateUser(User user);
     public int updateLevel(String name, String lev);
-    public int updateUser(String name);
     public int removeUser(String name);
     public PasswordEncoder passwordEncoder();
     public User getUserById(Integer id);

@@ -20,7 +20,6 @@ public interface UserMapper {
     int userJoin(User user);
     int updateUser(User user);
     int updateLevel(String name, String lev);
-    int updateUser(String name);
     int removeUser(String name);
     PasswordEncoder passwordEncoder();
     User getUserById(Integer id);
